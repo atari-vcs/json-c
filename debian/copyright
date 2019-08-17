@@ -1,32 +1,45 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: json-c
 Upstream-Contact: <michael@metaparadigm.com>
 Source: https://github.com/json-c/json-c/wiki
+Files-Excluded: doc/html/jquery.js
+Comment: File removed as it is a compiled version of libjs-jquery.
 
 Files: *
-Copyright: 2004-2005, Metaparadigm Pte. Ltd. <michael@metaparadigm.com>
-License: MIT
+Copyright: 2004-2015, Metaparadigm Pte. Ltd. <michael@metaparadigm.com>
+License: Expat
 
-Files: printbuf.[ch] jsontokener.c
+Files:
+ printbuf.c
+ printbuf.h
+ json_tokener.c
 Copyright: 2004-2005, Metaparadigm Pte. Ltd. <michael@metaparadigm.com>
            2008-2009, Yahoo! Inc.
-License: MIT
+License: Expat
 
-Files: debug.h json.h json_object.[ch] linkhash.[ch]
+Files:
+ debug.h
+ json.h
+ json_object.c
+ json_object.h
+ linkhash.c
+ linkhash.h
 Copyright: 2004-2005, Metaparadigm Pte. Ltd. <michael@metaparadigm.com>
            2008-2009, Yahoo! Inc.
            2009 Hewlett-Packard Development Company, L.P.
-License: MIT
+License: Expat
 
-Files: json_object_iterator.[ch]
+Files:
+ json_object_iterator.c
+ json_object_iterator.h
 Copyright: 2009-2012 Hewlett-Packard Development Company, L.P.
-License: MIT
+License: Expat
 
 Files: debian/*
 Copyright: 2009, Fabien Boucher <fabien.dot.boucher@gmail.com>
-License: MIT
+License: Expat
 
-License: MIT
+License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a
  copy of this software and associated documentation files (the "Software"),
  to deal in the Software without restriction, including without limitation

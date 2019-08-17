@@ -1,4 +1,5 @@
 libjson-c.so.3 libjson-c3 #MINVER#
+* Build-Depends-Package: libjson-c-dev
  array_list_add@Base 0.10
  array_list_free@Base 0.10
  array_list_get_idx@Base 0.10
