@@ -1,0 +1,53 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2009-2012, Eric Haszlakiewicz
+License: Expat
+
+Files: INSTALL
+Copyright: 1994-1996, 1999-2002, 2004-2013, Free Software Foundation
+License: FSFAP
+
+Files: aclocal.m4
+ compile
+ depcomp
+ ltmain.sh
+ missing
+ test-driver
+Copyright: 1996-2014, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: configure
+Copyright: 1992-1996, 1998-2012, Free Software Foundation, Inc.
+License: FSFUL
+
+Files: debian/*
+Copyright: 2009, Fabien Boucher <fabien.dot.boucher@gmail.com>
+License: Expat
+
+Files: debian/patches/gcc-7.diff
+Copyright: switch(length) all the case statements fall through
+License: Expat
+
+Files: install-sh
+Copyright: 1991, the Massachusetts Institute of Technology
+License: NTP
+
+Files: Makefile.in arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h doc/* doc/html/bc_s.png doc/html/doc.png doc/html/ftv2doc.png doc/html/ftv2link.png doc/html/doc.png doc/html/ftv2doc.png doc/html/ftv2link.png doc/html/doc.png doc/html/ftv2doc.png doc/html/ftv2link.png doc/html/doxygen.png doc/html/folderclosed.png doc/html/ftv2folderclosed.png doc/html/folderclosed.png doc/html/ftv2folderclosed.png doc/html/folderopen.png doc/html/ftv2folderopen.png doc/html/folderopen.png doc/html/ftv2folderopen.png doc/html/ftv2cl.png doc/html/ftv2mo.png doc/html/open.png doc/html/sync_off.png doc/html/sync_on.png doc/html/tab_a.png json_c_version.c json_c_version.h json_c_version.c json_c_version.h tests/*
+Copyright: 2004-2015, Metaparadigm Pte. Ltd. <michael@metaparadigm.com>
+License: Expat
+
+Files: arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h arraylist.c arraylist.h bits.h config.h.win32 debug.c json_object_private.h json_tokener.c json_tokener.h json_util.c json_util.h printbuf.c printbuf.h random_seed.c random_seed.h
+Copyright: 2004-2005, Metaparadigm Pte. Ltd. <michael@metaparadigm.com>
+ 2008-2009, Yahoo! Inc.
+License: Expat
+
+Files: debug.h json.h json_object.c json_object.h linkhash.c linkhash.h debug.h json.h json_object.c json_object.h linkhash.c linkhash.h debug.h json.h json_object.c json_object.h linkhash.c linkhash.h debug.h json.h json_object.c json_object.h linkhash.c linkhash.h debug.h json.h json_object.c json_object.h linkhash.c linkhash.h debug.h json.h json_object.c json_object.h linkhash.c linkhash.h
+Copyright: 2004-2005, Metaparadigm Pte. Ltd. <michael@metaparadigm.com>
+ 2008-2009, Yahoo! Inc.
+ 2009 Hewlett-Packard Development Company, L.P.
+License: Expat
+
+Files: json_object_iterator.c json_object_iterator.h json_object_iterator.c json_object_iterator.h
+Copyright: 2009-2012 Hewlett-Packard Development Company, L.P.
+License: Expat
