@@ -1,3 +1,9 @@
+json-c (0.12.1+ds-2+deb10u1) buster-security; urgency=high
+
+  * d/patches/611.patch: Add upstream patch to fix CVE-2020-12762
+
+ -- Nicolas Mora <babelouest@debian.org>  Sat, 01 Aug 2020 09:26:41 -0400
+
 json-c (0.12.1+ds-2) unstable; urgency=high
 
   * QA upload.
