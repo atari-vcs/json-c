@@ -1,4 +1,5 @@
-0001-Bump-SOVERSION-as-interfaces-has-been-removed-from-0.patch
-0002-Workaround-the-unused-variables-in-tests.patch
-gcc-7.diff
-611.patch
+0003-config-h.patch
+0002-doxygen.patch
+0001-CMakeLists-use-GNUInstallDirs.patch
+#608.patch
+0004-reproducible-build.patch

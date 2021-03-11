@@ -1,39 +1,22 @@
 #!/usr/bin/make -f
-# See debhelper(7) (uncomment to enable)
-# output every command that modifies files on the build system.
-#export DH_VERBOSE = 1
+#export DH_VERBOSE=1
 
-# see FEATURE AREAS in dpkg-buildflags(1)
-export DEB_BUILD_MAINT_OPTIONS = hardening=+all
-
-# see ENVIRONMENT in dpkg-buildflags(1)
-# package maintainers to append CFLAGS
-#export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
-# package maintainers to append LDFLAGS
-export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
-
-include /usr/share/dpkg/default.mk
+export USE_VALGRIND=0
 
 DPKG_GENSYMBOLS_CHECK_LEVEL ?= 4
 
-override_dh_auto_clean:
-	if test -e Makefile; then \
-	    make clean; \
-	    for f in Makefile config.h config.log config.status \
-	             json.pc json_config.h libtool stamp-h1 stamp-h2 \
-	             json-c.pc tests/Makefile; do \
-                rm -f $$f; \
-	done; \
-	fi; \
-	if test -d tests/testSubDir; then \
-	    rm -R tests/testSubDir; \
-	fi
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
-override_dh_missing:
-	dh_missing --fail-missing
+include /usr/share/dpkg/architecture.mk
+
+export DEB_HOST_MULTIARCH
 
 %:
-	dh $@
+	dh $@ --buildsystem=cmake --builddirectory=build
 
 override_dh_makeshlibs:
-	dh_makeshlibs -V --add-udeb="libjson-c3-udeb"
+	dh_makeshlibs -V --add-udeb="libjson-c5-udeb"
+
+override_dh_auto_build:
+	cd build && $(MAKE) doc
+	dh_auto_build --
