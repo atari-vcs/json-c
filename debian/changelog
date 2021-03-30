@@ -1,3 +1,9 @@
+json-c (0.15-2apertis0ata1) vcs; urgency=medium
+
+  * Build for atari vcs project
+
+ -- Christopher Obbard <chris.obbard@collabora.com>  Tue, 30 Mar 2021 08:58:19 +0100
+
 json-c (0.15-2apertis0) apertis; urgency=medium
 
   * Sync from Debian debian/bullseye.
