@@ -1,23 +1,31 @@
 ---
-name: Bug report
+name: Bug Report
 about: Create a report to help us improve
-title: ''
-labels: ''
+title: '[BUG] '
+labels: 'bug'
 assignees: ''
-
 ---
 
-Note: for general questions and comments, please use the forums at:
-https://groups.google.com/forum/#!forum/json-c
-
 **Describe the bug**
-A clear and concise description of what the bug is, and any information about where you're running into the bug that you feel might be relevant.
+A clear and concise description of what the bug is.
 
-**Steps To Reproduce**
-List the steps to reproduce the behavior.
-If possible, please attach a sample json file and/or a minimal code example.
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-**Version and Platform**
-- json-c version: [e.g. json-c-0.14, or a specific commit hash]
-- OS: [e.g. Ubuntu 20.04, Debian Buster, NetBSD 9, etc...]
-- Custom cmake/build flags, if any
+**Expected behavior**
+A clear and concise description of what you expected to happen.
+
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+**Environment (please complete the following information):**
+ - OS: [e.g. Windows, macOS, Linux]
+ - Browser [e.g. chrome, safari] (if applicable)
+ - Version [e.g. 22]
+
+**Additional context**
+Add any other context about the problem here.
